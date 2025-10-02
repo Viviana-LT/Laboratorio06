@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Validación</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="lenguajes.html">Lenguajes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <h2>Formulario de convalidaciones</h2>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="correo@email" required>
+        <br><br>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" pattern=".{6,12}" placeholder="Escriba su contraseña">
+        <br><br>
+
+        <label for="confiContra">Confirmar contraseña:</label>
+        <input type="password" id="confiContra" name="confiContra" pattern=".{6,12}" placeholder="Repita la contraseña">
+    </form>
+</body>
+</html>
