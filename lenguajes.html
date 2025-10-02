@@ -12,6 +12,8 @@
             <ul>
                 <li><a href="index.html">Página principal</a></li>
                 <li><a href="registro.html">Registro</a></li>
+                <li><a href="validacion.html">Validación</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
             </ul>
         </nav>
         
@@ -21,6 +23,7 @@
         <form>
             <h2>Formulario de preferencias</h2>
             <input type="file"> Ingrese su foto de perfil <br><br>
+
             <label>¿Qué lenguajes conoces? <br>
                 <input type="checkbox"> HTML
                 <input type="checkbox"> CSS
@@ -31,7 +34,7 @@
             <br><br>
 
             <label for="horas">¿Cuántas horas de programación estudias al día?</label>
-            <input type="number" min="1" max="24">
+            <input type="number" id="for" min="1" max="24">
             <br><br>
 
             <button type="submit">Guardar</button>
